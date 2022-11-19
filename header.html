@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utdl-8"/>
+        <title>Главная страница в VitaUm</title>
+        <style>
+        div{
+            margin:auto;
+            border: 1px solid black;
+            font-size: auto;
+            height: auto;
+        }
+        #header{
+            background-color: rgb(120, 120, 238);
+            height: 100px;
+        }
+        #sidebar{
+            background-color: white;
+            height: 500px;
+            float: left; 
+        }
+        #main{
+            background-color: aliceblue;
+            margin-left: 350px;
+            height: 1000px;
+        }
+    </style>
+    <style>
+        ul.nav{
+            margin-left: 0px;
+            padding-left: 0px;
+            list-style: none;
+        }
+        .nav li { 
+            float: left;
+        }
+        ul.nav a {
+            display: block;
+            width: auto;
+            padding:10px;
+            margin: 0 5px;
+            background-color: rgb(120, 120, 238);
+            border: 2px rgb(7, 7, 7);
+            border-radius: 15px;
+            text-decoration: none;
+            color: white;
+            text-align: center;
+        }
+        ul.nav a:hover{
+            background-color: rgb(38, 34, 34);
+            color: #f4f4f4;
+        }
+    </style>
+    </head>
+    <body>
+        <div id="header"><h1 style="margin-left: 550px;">VitaUm</h1>
+<button style="margin-left: 1250px; background:rgb(127, 127, 231); margin-bottom: 620px; border-radius: 20px;"><p>Настройки</p></button></div>
+        <div id="sidebar" style="width: 350px;"><h1>Your contacts:</h1></div>
+        <div id="main">
+            <ul class="nav">
+                <li><a href="#">Главная</a></li>
+                <li><a href="#">Блог</a></li>
+                <li><a href="#">Рекомендованное </a></li>
+                <li><a href="#"></a></li>
+            </ul>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utfl-8">
+        <title></title>      
+        <style>
+            div{
+                margin:auto;
+                border: 1px solid black;
+                font-size: auto;
+                height: auto;
+            }
+            #header{
+                background-color: rgb(120, 120, 238);
+                height: 80px;
+            }
+            #sidebar{
+                background-color: white;
+                float: right;
+                height: 500px;
+                width: 900px;
+            }
+            #main{
+                background-color: aliceblue;
+                margin-right: 900px;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="header">
+            <h1 style="margin-left: 530px; text-size-adjust: 40px;">VitaUm</h1></div>
+            <div id="sidebar">
+            <h1 style="margin-left: 420px">Ваш аккаунт Создан</h1>
+            <?php include "account.html" ?>
+                </div>
+                <div id="main">
+                <h1>Your contacts</h1>
+            </div>
+        </div>
+    </body>
+</html>
